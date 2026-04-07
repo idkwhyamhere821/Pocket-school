@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPulse | Learning Redefined</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Edu<span>Pulse</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="section hero">
+        <div class="hero-content">
+            <h1>Unlock Your Potential with <span>EduPulse</span></h1>
+            <p>Experience a personalized learning journey driven by curiosity and supported by cutting-edge technology. Join thousands of students mastering new skills every day.</p>
+            <button class="btn-primary">Get Started</button>
+        </div>
+        <div class="hero-image">
+            <div class="blob"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Creative Learning</h3>
+                    <p>We believe education should be as vibrant as your imagination. Our courses are designed to spark creativity and critical thinking.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Fast Growth</h3>
+                    <p>Accelerate your career with industry-standard certifications and practical projects that build real-world experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section team">
+        <div class="container">
+            <h2>Meet the Visionaries</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img" style="background-color: #FFD1DC;"></div>
+                    <h3>Alex Rivera</h3>
+                    <p>Lead Instructor</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img" style="background-color: #B2E2F2;"></div>
+                    <h3>Sarah Chen</h3>
+                    <p>Product Designer</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img" style="background-color: #C1E1C1;"></div>
+                    <h3>Marcus Thorne</h3>
+                    <p>AI Specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea rows="5" placeholder="How can we help you?" required></textarea>
+                <button type="submit" class="btn-secondary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EduPulse Education. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
